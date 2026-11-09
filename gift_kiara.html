@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Little Gift For Kiara 💗</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;overflow:hidden;background:radial-gradient(ellipse,#281326,#08060b);color:#f8dce9;font-family:Georgia,serif}
+.words{position:fixed;inset:0;pointer-events:none}.word{position:absolute;color:#d987b2;opacity:.2;white-space:nowrap;animation:float 12s alternate infinite}
+@keyframes float{to{transform:translateY(-25px) rotate(3deg)}}main{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px}
+h1{font-size:clamp(28px,7vw,46px);font-weight:normal;color:#f4b6d5;text-shadow:0 0 20px #b34b85;margin:0 0 10px}.sub{letter-spacing:2px;color:#d9a9c4;font-size:12px;margin-bottom:24px}
+.gallery{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}.photo{width:145px;height:185px;border-radius:22px;border:1px solid #9d5579;background:linear-gradient(145deg,#43243a,#17101b);display:flex;align-items:center;justify-content:center;color:#e8b4d0;box-shadow:0 0 20px #6b234355}
+p{max-width:460px;line-height:1.8;color:#eac8dc}button{background:#a84d7c;color:white;border:0;border-radius:24px;padding:12px 23px;font-size:15px}#message{display:none;color:#ffc9e2;font-size:20px;line-height:1.7;margin-top:18px}footer{position:absolute;bottom:16px;font-size:12px;color:#9f718d}
+.heart{position:fixed;bottom:-25px;color:#ee8cbd;opacity:.6;animation:rise 9s linear infinite}@keyframes rise{to{transform:translateY(-110vh);opacity:0}}
+</style></head><body>
+<div class="words">
+<span class="word" style="top:8%;left:8%;font-size:30px">stay with me</span><span class="word" style="top:18%;right:5%;font-size:24px">forever</span>
+<span class="word" style="top:42%;left:4%;font-size:22px">I miss you</span><span class="word" style="top:60%;right:3%;font-size:28px">only you</span>
+<span class="word" style="bottom:16%;left:10%;font-size:25px">you mean everything</span><span class="word" style="bottom:28%;right:8%;font-size:20px">always with you</span>
+</div>
+<main><h1>A Little Gift For Kiara 💗</h1><div class="sub">A SMALL WEBSITE, WITH A BIG FEELING</div>
+<div class="gallery"><div class="photo">📷<br>Foto Kiara</div><div class="photo">💗<br>Our memories</div></div>
+<p>Kiara, ada hal sederhana yang ingin aku sampaikan…<br>Semoga halaman kecil ini bisa bikin kamu tersenyum.</p>
+<button onclick="document.getElementById('message').style.display='block'">Buka pesan kecil 💌</button>
+<div id="message">Kiara, you mean something special. 💕<br>Terima kasih sudah hadir dan menjadi seseorang yang berharga.</div>
+<footer>made with love ♡</footer></main>
+<script>for(let i=0;i<14;i++){let h=document.createElement('div');h.className='heart';h.textContent=['♡','♥','✧'][i%3];h.style.left=Math.random()*100+'%';h.style.animationDelay=Math.random()*9+'s';h.style.fontSize=14+Math.random()*18+'px';document.body.appendChild(h)}</script>
+</body></html>
